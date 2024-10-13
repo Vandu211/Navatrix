@@ -1,0 +1,10 @@
+//Sql Commonds 
+CREATE DATABASE userdb;
+use userdb;
+
+CREATE TABLE Data (
+    id INT PRIMARY KEY,
+    name VARCHAR(255) ,
+    age INT,
+    city VARCHAR(255) 
+);
